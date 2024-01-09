@@ -2,6 +2,8 @@
 
 <img src="https://img.shields.io/badge/js--faster-v1.0.1-4CAF50"/> <img src="https://img.shields.io/badge/dayjs-1.11.10-%23EC407A"/> <img src="https://img.shields.io/badge/lodash-4.17.21-orange"/>
 
+## Phiên bản Tiếng Việt
+
 ### Cách cài đặt
 
 ```
@@ -18,7 +20,7 @@ yarn add js-faster
 
 - English document: [VIEW ENGLISH](https://github.com/chaudev/js-faster)
 
-- Tài liệu tiếng việt: [XEM BẰNG TIẾNG VIỆT](https://github.com/chaudev/js-faster#vi-readme)
+- Tài liệu tiếng việt: [XEM BẰNG TIẾNG VIỆT](https://github.com/chaudev/js-faster/blob/main/vi-readme.md)
 
 ### 1. `formatDateString`
 
