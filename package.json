@@ -1,6 +1,6 @@
 {
   "name": "js-faster",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "js-faster is a support library for development in JavaScript and TypeScript. Provides many features and tools to help optimize performance and increase the execution speed of source code.",
   "main": "index.tsx",
   "dependencies": {
