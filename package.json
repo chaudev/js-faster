@@ -1,0 +1,39 @@
+{
+  "name": "js-faster",
+  "version": "1.0.0",
+  "description": "js-faster is a support library for development in JavaScript and TypeScript. Provides many features and tools to help optimize performance and increase the execution speed of source code.",
+  "main": "index.tsx",
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm i js-faster"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaudev/js-faster.git"
+  },
+  "keywords": [
+    "react-practical",
+    "js-faster",
+    "js-helper",
+    "js-helpers",
+    "js-utils",
+    "js-kit",
+    "react",
+    "react-kit",
+    "react-tools",
+    "baochau9xx",
+    "react-native",
+    "checkbox",
+    "thatthuvi"
+  ],
+  "author": "NGUYEN PHUC BAO CHAU (baochau9xx, chaudev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaudev/js-faster/issues"
+  },
+  "homepage": "https://github.com/chaudev/js-faster#readme"
+}
