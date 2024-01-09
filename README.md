@@ -1,6 +1,6 @@
 ## js-faster 🐶
 
-<img src="https://img.shields.io/badge/js--faster-v1.0.1-4CAF50"/> <img src="https://img.shields.io/badge/dayjs-1.11.10-%23EC407A"/> <img src="https://img.shields.io/badge/lodash-4.17.21-orange"/>
+<img src="https://img.shields.io/badge/js--faster-v1.0.3-4CAF50"/> <img src="https://img.shields.io/badge/dayjs-1.11.10-%23EC407A"/> <img src="https://img.shields.io/badge/lodash-4.17.21-orange"/>
 
 ### Intall
 
