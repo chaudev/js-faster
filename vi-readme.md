@@ -16,11 +16,11 @@ or
 yarn add js-faster
 ```
 
-## Cách sử dụng
-
 - English document: [VIEW ENGLISH](https://github.com/chaudev/js-faster)
 
 - Tài liệu tiếng việt: [XEM BẰNG TIẾNG VIỆT](https://github.com/chaudev/js-faster/blob/main/vi-readme.md)
+
+## Cách sử dụng
 
 ### 1. `formatDateString`
 
