@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/js--faster-v1.0.1-4CAF50"/> <img src="https://img.shields.io/badge/dayjs-1.11.10-%23EC407A"/> <img src="https://img.shields.io/badge/lodash-4.17.21-orange"/>
 
-### Intall
+### Cách cài đặt
 
 ```
 npm i js-faster
@@ -14,7 +14,7 @@ or
 yarn add js-faster
 ```
 
-## How to use
+## Cách sử dụng
 
 - English document: [VIEW ENGLISH](https://github.com/chaudev/js-faster)
 
@@ -22,143 +22,143 @@ yarn add js-faster
 
 ### 1. `formatDateString`
 
-Formats a Date object into a date string (DD/MM/YYYY).
+Định dạng một đối tượng Date thành chuỗi ngày (DD/MM/YYYY).
 
 ```javascript
 const formattedDate = formatDateString(new Date());
-// Result: 09/01/2024
+// Kết quả: 09/01/2024
 ```
 
 ### 2. `formatDateTimeString`
 
-Formats a Date object into a time and date string (HH:mm DD/MM/YYYY).
+Định dạng một đối tượng Date thành chuỗi thời gian và ngày (HH:mm DD/MM/YYYY).
 
 ```javascript
 const formattedDateTime = formatDateTimeString(new Date());
-// Result: 16:46 09/01/2024
+// Kết quả: 16:46 09/01/2024
 ```
 
 ### 3. `formatNumberWithCommas`
 
-Converts an integer to a string with comma-separated format.
+Chuyển đổi một số nguyên thành một chuỗi có định dạng được phân tách bằng dấu phẩy.
 
 ```javascript
 const formattedNumber = formatNumberWithCommas(1000000);
-// Result: 1,000,000
+// Kết quả: 1,000,000
 ```
 
 ### 4. `parseFormattedNumber`
 
-Converts a string with commas to an integer.
+Chuyển đổi một chuỗi có chứa dấu phẩy thành một số nguyên.
 
 ```javascript
 const parsedNumber = parseFormattedNumber("1,000,000");
-// Result: 1000000
+// Kết quả: 1000000
 ```
 
 ### 5. `toUpperCase`
 
-Converts a string to uppercase.
+Chuyển đổi một chuỗi thành chữ in hoa.
 
 ```javascript
 const upperCaseString = toUpperCase("hello world");
-// Result: HELLO WORLD
+// Kết quả: HELLO WORLD
 ```
 
 ### 6. `toLowerCase`
 
-Converts a string to lowercase.
+Chuyển đổi một chuỗi thành chữ thường.
 
 ```javascript
 const lowerCaseString = toLowerCase("Hello World");
-// Result: hello world
+// Kết quả: hello world
 ```
 
 ### 7. `arrayToStringWithCommas`
 
-Converts an array to a string, joining elements with commas.
+Chuyển đổi một mảng thành một chuỗi, nối các phần tử bằng dấu phẩy.
 
 ```javascript
 const stringFromArray = arrayToStringWithCommas([1, 2, 3]);
-// Result: 1,2,3
+// Kết quả: 1,2,3
 ```
 
 ### 8. `parseStringToArray`
 
-Converts a comma-separated string to an array of integers.
+Chuyển đổi một chuỗi được phân tách bằng dấu phẩy thành một mảng số nguyên.
 
 ```javascript
 const arrayFromString = parseStringToArray("1,2,3");
-// Result: [1, 2, 3]
+// Kết quả: [1, 2, 3]
 ```
 
 ### 9. `isInteger`
 
-Checks if a value is an integer.
+Kiểm tra xem một giá trị có phải là số nguyên hay không.
 
 ```javascript
 const result = isInteger(42);
-// Result: true
+// Kết quả: true
 ```
 
 ```javascript
 const result = isInteger("42");
-// Result: false
+// Kết quả: false
 ```
 
 ### 10. `getRandomNumberInRange`
 
-Generates a random number within a specified range.
+Tạo ra một số ngẫu nhiên trong khoảng được chỉ định.
 
 ```javascript
 const randomNum = getRandomNumberInRange(1, 100);
-// Result: [Random number between 1 and 100]
+// Kết quả: [Random number between 1 and 100]
 ```
 
 ### 11. `isArray`
 
-Checks if a value is an array.
+Kiểm tra xem một giá trị có phải là mảng hay không.
 
 ```javascript
 const result = isArray([1, 2, 3]);
-// Result: true
+// Kết quả: true
 ```
 
 ```javascript
 const result = isArray(1);
-// Result: false
+// Kết quả: false
 ```
 
 ### 12. `sortAscending`
 
-Sorts an array in ascending order.
+Sắp xếp một mảng theo thứ tự tăng dần.
 
 ```javascript
 const sortedArray = sortAscending([3, 1, 2]);
-// Result: [1, 2, 3]
+// Kết quả: [1, 2, 3]
 ```
 
 ### 13. `sortDescending`
 
-Sorts an array in descending order.
+Sắp xếp một mảng theo thứ tự giảm dần.
 
 ```javascript
 const sortedArray = sortDescending([3, 1, 2]);
-// Result: [3, 2, 1]
+// Kết quả: [3, 2, 1]
 ```
 
 ### 14. `containsNumber`
 
-Checks if a string contains a numeric character.
+Kiểm tra xem một chuỗi có chứa ký tự số hay không.
 
 ```javascript
 const result = containsNumber("Hello123");
-// Result: true
+// Kết quả: true
 ```
 
-## Contact
+## Thông tin liên hệ
 
-### NGUYEN PHUC BAO CHAU
+### NGUYỄN PHÚC BẢO CHÂU
 
 - Website: https://ischau.org
 - Website 2: https://dovuihainao.com
@@ -167,6 +167,6 @@ const result = containsNumber("Hello123");
 - Facebook: https://facebook.com/baochau9xx
 - Mail: chau.02it@gmail.com
 
-### Keyword
+### Từ khoá
 
 baochau9xx, green, js-faster, react-practical, react tools, react-native, native, baochau, thatthuvi
