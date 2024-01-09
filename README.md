@@ -14,9 +14,9 @@ or
 yarn add js-faster
 ```
 
-### How to use
+## How to use
 
-## 1. `formatDateString`
+### 1. `formatDateString`
 
 Formats a Date object into a date string (DD/MM/YYYY).
 
@@ -25,7 +25,7 @@ const formattedDate = formatDateString(new Date());
 // Result: 09/01/2024
 ```
 
-## 2. `formatDateTimeString`
+### 2. `formatDateTimeString`
 
 Formats a Date object into a time and date string (HH:mm DD/MM/YYYY).
 
@@ -34,7 +34,7 @@ const formattedDateTime = formatDateTimeString(new Date());
 // Result: 16:46 09/01/2024
 ```
 
-## 3. `formatNumberWithCommas`
+### 3. `formatNumberWithCommas`
 
 Converts an integer to a string with comma-separated format.
 
@@ -43,7 +43,7 @@ const formattedNumber = formatNumberWithCommas(1000000);
 // Result: 1,000,000
 ```
 
-## 4. `parseFormattedNumber`
+### 4. `parseFormattedNumber`
 
 Converts a string with commas to an integer.
 
@@ -52,7 +52,7 @@ const parsedNumber = parseFormattedNumber("1,000,000");
 // Result: 1000000
 ```
 
-## 5. `toUpperCase`
+### 5. `toUpperCase`
 
 Converts a string to uppercase.
 
@@ -61,7 +61,7 @@ const upperCaseString = toUpperCase("hello world");
 // Result: HELLO WORLD
 ```
 
-## 6. `toLowerCase`
+### 6. `toLowerCase`
 
 Converts a string to lowercase.
 
@@ -70,7 +70,7 @@ const lowerCaseString = toLowerCase("Hello World");
 // Result: hello world
 ```
 
-## 7. `arrayToStringWithCommas`
+### 7. `arrayToStringWithCommas`
 
 Converts an array to a string, joining elements with commas.
 
@@ -79,7 +79,7 @@ const stringFromArray = arrayToStringWithCommas([1, 2, 3]);
 // Result: 1,2,3
 ```
 
-## 8. `parseStringToArray`
+### 8. `parseStringToArray`
 
 Converts a comma-separated string to an array of integers.
 
@@ -88,7 +88,7 @@ const arrayFromString = parseStringToArray("1,2,3");
 // Result: [1, 2, 3]
 ```
 
-## 9. `isInteger`
+### 9. `isInteger`
 
 Checks if a value is an integer.
 
@@ -102,7 +102,7 @@ const result = isInteger("42");
 // Result: false
 ```
 
-## 10. `getRandomNumberInRange`
+### 10. `getRandomNumberInRange`
 
 Generates a random number within a specified range.
 
@@ -111,7 +111,7 @@ const randomNum = getRandomNumberInRange(1, 100);
 // Result: [Random number between 1 and 100]
 ```
 
-## 11. `isArray`
+### 11. `isArray`
 
 Checks if a value is an array.
 
@@ -125,7 +125,7 @@ const result = isArray(1);
 // Result: false
 ```
 
-## 12. `sortAscending`
+### 12. `sortAscending`
 
 Sorts an array in ascending order.
 
@@ -134,7 +134,7 @@ const sortedArray = sortAscending([3, 1, 2]);
 // Result: [1, 2, 3]
 ```
 
-## 13. `sortDescending`
+### 13. `sortDescending`
 
 Sorts an array in descending order.
 
@@ -143,7 +143,7 @@ const sortedArray = sortDescending([3, 1, 2]);
 // Result: [3, 2, 1]
 ```
 
-## 14. `containsNumber`
+### 14. `containsNumber`
 
 Checks if a string contains a numeric character.
 
@@ -166,7 +166,3 @@ const result = containsNumber("Hello123");
 ### Keyword
 
 baochau9xx, green, js-faster, react-practical, react tools, react-native, native, baochau, thatthuvi
-
-```
-
-```
